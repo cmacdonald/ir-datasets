@@ -1,0 +1,202 @@
+_:
+  pretty_name: 'BRIGHT'
+  desc: '
+<p>
+BRIGHT (Benchmark for Reasoning-Intensive Generative Retrieval Tasks) is a realistic and
+challenging benchmark for reasoning-intensive retrieval. It contains 1,398 real-world queries
+collected from 12 diverse domains (biology, earth science, economics, psychology, robotics,
+software engineering, mathematics, etc.), sourced from naturally occurring or carefully curated
+human data.
+</p>
+<p>
+Queries are long StackExchange posts, math Olympiad questions, or programming problems, and
+documents are web pages, research articles, or similar resources. Retrieval requires deliberate
+reasoning to identify relevant documents.
+</p>
+<ul>
+<li><a href="https://brightbenchmark.github.io/">Dataset website</a></li>
+<li><a href="https://huggingface.co/datasets/xlangai/BRIGHT">HuggingFace</a></li>
+<li><a href="https://arxiv.org/abs/2407.12883">Paper</a></li>
+</ul>
+'
+  bibtex_ids: ['Su2025Bright']
+
+biology:
+  desc: '
+<p>
+BRIGHT biology subset. Queries are StackExchange Biology posts; documents are web pages linked
+in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+biology/long_documents:
+  desc: '
+<p>
+BRIGHT biology subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/biology</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+earth_science:
+  desc: '
+<p>
+BRIGHT earth science subset. Queries are StackExchange Earth Science posts; documents are web
+pages linked in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+earth_science/long_documents:
+  desc: '
+<p>
+BRIGHT earth science subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/earth_science</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+economics:
+  desc: '
+<p>
+BRIGHT economics subset. Queries are StackExchange Economics posts; documents are web pages
+linked in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+economics/long_documents:
+  desc: '
+<p>
+BRIGHT economics subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/economics</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+psychology:
+  desc: '
+<p>
+BRIGHT psychology subset. Queries are StackExchange Psychology posts; documents are web pages
+linked in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+psychology/long_documents:
+  desc: '
+<p>
+BRIGHT psychology subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/psychology</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+robotics:
+  desc: '
+<p>
+BRIGHT robotics subset. Queries are StackExchange Robotics posts; documents are web pages
+linked in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+robotics/long_documents:
+  desc: '
+<p>
+BRIGHT robotics subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/robotics</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+stackoverflow:
+  desc: '
+<p>
+BRIGHT Stack Overflow subset. Queries are Stack Overflow posts; documents are web pages linked
+in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+stackoverflow/long_documents:
+  desc: '
+<p>
+BRIGHT Stack Overflow subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/stackoverflow</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+sustainable_living:
+  desc: '
+<p>
+BRIGHT sustainable living subset. Queries are StackExchange Sustainable Living posts; documents
+are web pages linked in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+sustainable_living/long_documents:
+  desc: '
+<p>
+BRIGHT sustainable living subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/sustainable_living</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+pony:
+  desc: '
+<p>
+BRIGHT pony subset. Queries are StackExchange questions about the Pony programming language;
+documents are web pages linked in the accepted answers.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+pony/long_documents:
+  desc: '
+<p>
+BRIGHT pony subset with long-document retrieval. Queries are shared with
+<a class="ds-ref">bright/pony</a>; documents are full web pages (as opposed to passages).
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+leetcode:
+  desc: '
+<p>
+BRIGHT LeetCode subset. Queries are LeetCode programming problems; documents are relevant
+algorithmic documentation and resources.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+aops:
+  desc: '
+<p>
+BRIGHT AoPS (Art of Problem Solving) subset. Queries are math competition problems from AoPS;
+documents are relevant mathematical resources.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+theoremqa_theorems:
+  desc: '
+<p>
+BRIGHT TheoremQA theorems subset. Queries are questions from TheoremQA; documents are the
+theorems relevant to answering the questions.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
+
+theoremqa_questions:
+  desc: '
+<p>
+BRIGHT TheoremQA questions subset. Queries are questions from TheoremQA; documents are similar
+questions with known solutions that can guide the retrieval.
+</p>
+'
+  bibtex_ids: ['Su2025Bright']
